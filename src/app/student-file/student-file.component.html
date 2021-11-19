@@ -1,0 +1,19 @@
+<div [ngClass]="{ 'active-student': sDetails.isInCurrentSem }">
+  <span>
+    <p>Id: {{ sDetails.id }}</p>
+    <p>Name: {{ sDetails.name }}</p>
+    <p>Place: {{ sDetails.place }}</p>
+    <p>Sports: {{ sDetails.sports }}</p>
+  </span>
+  <button (click)="onDelete(sDetails.id)">Delete</button>
+</div>
+
+<!-- <div *ngIf="!sDetails.isInCurrentSem">
+  <p>Student not in current sem</p>
+</div> -->
+
+<ng-template #notInCurrentSemMsg>
+  <div>
+    <p>Student not in current sem</p>
+  </div>
+</ng-template>

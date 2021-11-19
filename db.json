@@ -1,0 +1,26 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "name": "Rohith",
+      "place": "Tumlur",
+      "sports": [
+        "cricket",
+        "Tennis",
+        "swimming"
+      ],
+      "isInCurrentSem": true
+    },
+    {
+      "id": 2,
+      "name": "Santhosh",
+      "place": "Mumbai",
+      "sports": [
+        "cricket",
+        "Tennis",
+        "swimming"
+      ],
+      "isInCurrentSem": false
+    }
+  ]
+}

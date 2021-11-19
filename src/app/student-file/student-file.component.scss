@@ -1,0 +1,26 @@
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #86c386;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #f1f0f0;
+  border-left: 15px solid rgb(247, 99, 99);
+
+  span {
+    p {
+      margin: 5px;
+    }
+  }
+
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+}
+
+.active-student {
+  border-left: 15px solid #5c8f5c;
+}
